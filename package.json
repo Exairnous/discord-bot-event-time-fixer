@@ -1,0 +1,38 @@
+{
+  "name": "Event Time Fixer",
+  "version": "1.0.0",
+  "description": "Bot for fixing the end time of recurring events.",
+  "main": "event-time-fixer.js",
+  "type": "module",
+  "engines": {
+    "node": "20.x",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node event-time-fixer.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-js",
+    "discord-api",
+    "discordjs",
+    "discordjs-bot",
+    "javascript",
+    "discordjsbot",
+    "discordapp",
+    "discordbot",
+    "nodejs-bot",
+    "nodejs",
+    "node-js",
+    "bot"
+  ],
+  "author": "Imaginer",
+  "license": "MPL v2",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
